@@ -206,16 +206,3 @@ if __name__ == '__main__':
     print("convert bbox to annotation file")
     bbox2json(txtPath, jsonPath, jpgPath)
     print("end")
-
-    # val
-    # txtPath = "./trash/28/val/gt/"
-    # jpgPath = "./trash/28/val/img/"
-    # savePath = "./trash/28/"
-    # jsonName = "instances_val2017"    # "instances_val2017"
-    # print("convert images to annotation file")
-    # img2json.main(txtPath, jpgPath, savePath, jsonName)
-    #
-    # jsonPath = savePath + jsonName + ".json"
-    # print("convert bbox to annotation file")
-    # bbox2json(txtPath, jsonPath)
-    # print("end")
